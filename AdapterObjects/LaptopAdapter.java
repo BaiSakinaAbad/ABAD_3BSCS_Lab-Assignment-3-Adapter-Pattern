@@ -9,7 +9,7 @@ public class LaptopAdapter implements PowerOutlet {
         this.laptop = laptop;
     }
 
-    public void powerOutlet() {
+    public void plugIn() {
         laptop.charge();
     }
 
