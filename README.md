@@ -24,4 +24,4 @@ Adapter Objects:
     AdapterObjects.SmartphoneAdapter - An adapter for plugging a smartphone charger into a standard power outlet. It adapts the AdapteeObjects.SmartphoneCharger to the AdapterObjects.PowerOutlet interface, translating plugIn() to chargePhone().
 
 UML CASE DIAGRAM
-![uml case diagram](ADP UML.png)
+![uml diagram](ADP UML.png)
