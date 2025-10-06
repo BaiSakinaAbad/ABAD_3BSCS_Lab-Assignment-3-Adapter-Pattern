@@ -22,3 +22,6 @@ Adapter Objects:
     AdapterObjects.RefrigeratorAdapter - An adapter for plugging a refrigerator into a standard power outlet. It adapts the AdapteeObjects.Refrigerator to the AdapterObjects.PowerOutlet interface, translating plugIn() to startCooling().
 
     AdapterObjects.SmartphoneAdapter - An adapter for plugging a smartphone charger into a standard power outlet. It adapts the AdapteeObjects.SmartphoneCharger to the AdapterObjects.PowerOutlet interface, translating plugIn() to chargePhone().
+
+UML CASE DIAGRAM
+![uml case diagram](ADP UML.png)
