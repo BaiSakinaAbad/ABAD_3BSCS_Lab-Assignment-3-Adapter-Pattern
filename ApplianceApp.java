@@ -8,9 +8,10 @@ public class ApplianceApp {
         Refrigerator refrigerator = new Refrigerator();
         SmartphoneCharger smartphoneCharger = new SmartphoneCharger();
 
-        LaptopAdapter laptopAdapter = new LaptopAdapter(laptop);
-        RefrigeratorAdapter refrigeratorAdapter = new RefrigeratorAdapter(refrigerator);
-        SmartphoneAdapter smartphoneAdapter = new SmartphoneAdapter(smartphoneCharger);
+
+        PowerOutlet laptopAdapter = new LaptopAdapter(laptop);
+        PowerOutlet refrigeratorAdapter = new RefrigeratorAdapter(refrigerator);
+        PowerOutlet smartphoneAdapter = new SmartphoneAdapter(smartphoneCharger);
 
         laptopAdapter.plugIn();
         refrigeratorAdapter.plugIn();
